@@ -1,0 +1,24 @@
+.navbar {
+  padding: 1rem 0;
+  border-bottom: 1px solid $bgDark;
+  background-color: $bgLight;
+}
+.brand {
+  img {
+    width: 7rem;
+  }
+}
+.nav-item {
+  margin-left: 2rem;
+  a {
+    font-size: 1.2rem;
+    color: $textLight;
+    transition: color 200ms ease-in-out;
+    &:hover {
+      color: $primary;
+    }
+    &.active {
+      color: $textDark;
+    }
+  }
+}

@@ -5,7 +5,7 @@ function SinglePost(props) {
   return (
     <article className="single-post">
       <header className="post-banner padding">
-        <div className="container">
+        <div className="md-wrapper">
           <h1 className="post-title">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas
             similique!
@@ -23,7 +23,7 @@ function SinglePost(props) {
           </div>
         </div>
       </header>
-      <div className="container">
+      <div className="md-wrapper">
         <div className="single-post-body padding">
           <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas
@@ -68,7 +68,7 @@ function SinglePost(props) {
         </div>
       </div>
       <footer className="padding text-center post-footer">
-        <div className="container">
+        <div className="md-wrapper">
           <p>
             <Link to="/login">Sign in</Link> or
             <Link to="/signup"> sign up</Link> to add comments on this article.

@@ -1,7 +1,9 @@
+import { Profiler } from "react";
 import { Route } from "react-router-dom";
 import Header from "./Header";
 import Home from "./Home";
 import Login from "./Login";
+import Profile from "./Profile";
 import Signup from "./Signup";
 import SinglePost from "./SinglePost";
 function App(props) {
@@ -13,6 +15,9 @@ function App(props) {
       </Route>
       <Route path="/singlepost">
         <SinglePost />
+      </Route>
+      <Route path="/profile">
+        <Profile />
       </Route>
       <Route path="/signup">
         <Signup />

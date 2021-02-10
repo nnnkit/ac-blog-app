@@ -146,3 +146,12 @@ html {
 a {
   text-decoration: none;
 }
+button,
+input {
+  outline: 0;
+  box-shadow: none;
+  border: 0;
+}
+input {
+  border: 1px solid;
+}

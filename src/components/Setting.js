@@ -23,7 +23,6 @@ function Setting(props) {
           <textarea
             className="form-control"
             rows="6"
-            type="password"
             placeholder="Short bio about you"
           ></textarea>
           <input

@@ -3,6 +3,7 @@ import { Route } from "react-router-dom";
 import Header from "./Header";
 import Home from "./Home";
 import Login from "./Login";
+import NewPost from "./NewPost";
 import Profile from "./Profile";
 import Setting from "./Setting";
 import Signup from "./Signup";
@@ -22,6 +23,9 @@ function App(props) {
       </Route>
       <Route path="/settings">
         <Setting />
+      </Route>
+      <Route path="/editor">
+        <NewPost />
       </Route>
       <Route path="/signup">
         <Signup />

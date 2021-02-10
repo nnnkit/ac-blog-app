@@ -147,10 +147,12 @@ a {
   text-decoration: none;
 }
 button,
-input {
+input,
+textarea {
   outline: 0;
   box-shadow: none;
   border: 0;
+  font-family: inherit;
 }
 input {
   border: 1px solid;

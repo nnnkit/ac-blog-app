@@ -4,6 +4,7 @@ import Header from "./Header";
 import Home from "./Home";
 import Login from "./Login";
 import Profile from "./Profile";
+import Setting from "./Setting";
 import Signup from "./Signup";
 import SinglePost from "./SinglePost";
 function App(props) {
@@ -18,6 +19,9 @@ function App(props) {
       </Route>
       <Route path="/profile">
         <Profile />
+      </Route>
+      <Route path="/settings">
+        <Setting />
       </Route>
       <Route path="/signup">
         <Signup />

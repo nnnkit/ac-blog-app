@@ -6,9 +6,11 @@ function Post(props) {
     <article className="post">
       <header className="flex justify-between item-center">
         <div className=" flex item-center">
-          <img className="author-img" src="/images/smiley.jpg" alt="Smiley" />
+          <Link to="/profile">
+            <img className="author-img" src="/images/smiley.jpg" alt="Smiley" />
+          </Link>
           <div className="post-details">
-            <Link to="/">
+            <Link to="/profile">
               <p className="post-author">Annie</p>
             </Link>
             <time className="post-time" datetime="">
@@ -21,7 +23,7 @@ function Post(props) {
           <span>1</span>
         </div>
       </header>
-      <Link to="/">
+      <Link to="/singlepost">
         <div className="post-body">
           <h2 className="post-title">Hello World!</h2>
           <p className="post-text">
@@ -33,7 +35,7 @@ function Post(props) {
         </div>
       </Link>
       <footer>
-        <Link className="read-more-btn" to="/">
+        <Link className="read-more-btn" to="/singlepost">
           Read More
         </Link>
       </footer>

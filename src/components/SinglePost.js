@@ -11,9 +11,15 @@ function SinglePost(props) {
             similique!
           </h1>
           <div className=" flex item-center">
-            <img className="author-img" src="/images/smiley.jpg" alt="Smiley" />
+            <Link to="/profile">
+              <img
+                className="author-img"
+                src="/images/smiley.jpg"
+                alt="Smiley"
+              />
+            </Link>
             <div className="post-details">
-              <Link to="/">
+              <Link to="/profile">
                 <p className="post-author">Annie</p>
               </Link>
               <time className="post-time" datetime="">

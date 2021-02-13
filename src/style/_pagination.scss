@@ -1,5 +1,5 @@
 .pagination {
-  margin-top: 1rem;
+  margin: 2rem 0;
   border-top: 1px solid $bgDark;
   padding-top: 3rem;
 }
@@ -9,6 +9,7 @@
     border: 1px solid;
     border-right: 0;
     padding: 0.5rem 0.7rem;
+    display: inline-block;
     cursor: pointer;
     &:last-child {
       border-right: 1px solid;
@@ -27,9 +28,12 @@
     text-decoration: underline;
   }
 }
-.prev {
-  margin-right: 1rem;
-}
-.next {
-  margin-left: 1rem;
+
+@media screen and (min-width: 576px) {
+  .prev {
+    margin-right: 1rem;
+  }
+  .next {
+    margin-left: 1rem;
+  }
 }

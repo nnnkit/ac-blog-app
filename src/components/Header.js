@@ -8,8 +8,15 @@ function Header(props) {
         <Link className="brand" to="/" exact>
           <img src="/images/logo.svg" alt="Brand Logo" />
         </Link>
+
         <nav>
-          <ul className="flex item-center">
+          <input id="toggle" type="checkbox" />
+          <label className="toggle-btn" htmlFor="toggle">
+            <span className="bar"></span>
+            <span className="bar"></span>
+            <span className="bar"></span>
+          </label>
+          <ul className="flex item-center nav-menu">
             <li className="nav-item">
               <Link className="active" to="/" exact>
                 Home

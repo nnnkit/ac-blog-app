@@ -8,7 +8,7 @@ function Home(props) {
     <main>
       <Banner />
       <div className="padding">
-        <div className="container col-md-4 item-start">
+        <div className="container col-xs-4 item-start">
           <Feed />
           <Sidebar />
         </div>

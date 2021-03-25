@@ -5,7 +5,7 @@ import Post from "./Post";
 
 function Feed(props) {
   return (
-    <section className="span-md-3">
+    <section className="span-xs-3">
       <FeedNav />
       <Post />
       <Post />
